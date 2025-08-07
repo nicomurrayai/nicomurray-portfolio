@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+// import { Button } from "./ui/button";
 
 export default function Presentation() {
     return (
@@ -7,8 +7,8 @@ export default function Presentation() {
             <h2 className="text-2xl font-thin text-center sm:text-3xl">FullStack Developer with AI Focus.</h2>
             <p className="text-lg font-thin max-w-[600px] text-center leading-normal">Building digital experiences with modern technologies.<br /> Focused on creating AI solutions.</p>
             <div className="flex items-center gap-10 mt-6">
-                <Button>Contact me</Button>
-                <Button variant="outline">View resume</Button>
+                {/* <Button>Contact me</Button>
+                <Button variant="outline">View resume</Button> */}
             </div>
         </div>
     )
