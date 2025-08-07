@@ -41,7 +41,7 @@ const projects: ProjectProps[] = [
 export default function Projects() {
     return (
         <div className="my-20" id="projects">
-            <h3 className="text-center text-3xl font-thin -tracking-tight mb-10">HIGHLIGHT PROJECTS</h3>
+            <h3 className="text-center text-3xl font-thin -tracking-tight mb-10">HIGHLIGHT WORKS</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
                 {projects.map(project => <ProjectCard key={project.id} project={project} />)}
             </div>
