@@ -4,17 +4,17 @@ import ProjectCard from "./ProjectCard"
 const projects: ProjectProps[] = [
     {
         id:1,
-        image: "/linkscribe.png",
+        image: "/project1.jpg",
         title: "LinkScribe",
-        description: "A full-stack app that transform youtube videos into viral linkedin posts.",
+        description: "FullStack app that transform youtube videos into viral linkedin posts.",
         tools: ["React" , "Gemini AI","Supabase","Next.js"],
         link: "#"
     },
     {
         id:2,
-        image: "/whatfast.svg",
+        image: "/project2.jpg",
         title: "WhatFast",
-        description: "A full-stack app that send whatsapp messages via excel.",
+        description: "FullStack app that send whatsapp messages via excel.",
          tools: ["React" ,"Supabase","Next.js","MercadoPago"],
         link: "https://whatfast.com"
     },

@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
             </div>
             <div className="flex flex-col gap-2 p-4">
                 <h5 className="text-xl">{project.title}</h5>
-                <p className="text-gray-400">{project.description}</p>
+                <p className="dark:text-gray-400 text-gray-800">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                     {project.tools.map(tool => <Badge key={crypto.randomUUID()} variant="outline">{tool}</Badge>)}
                 </div>
