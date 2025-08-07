@@ -8,7 +8,7 @@ export default function Navbar() {
                 <a href="#projects">Works</a>
                 {/* <a href="#">Contact</a> */}
             </div>
-            <p className="text-gray-400 text-xs sm:text-base">nicomurray.ai@gmail.com</p>
+            <p className="dark:text-gray-400 text-black text-xs sm:text-base">nicomurray.ai@gmail.com</p>
             <div className="flex items-center gap-4">
                 <ModeToggle />
                 {/* <LangToogle /> */}
