@@ -2,21 +2,14 @@ import type { ProjectProps } from "./ProjectCard"
 import ProjectCard from "./ProjectCard"
 
 const projects: ProjectProps[] = [
+
     {
-        id:1,
+        id: 1,
         image: "/project1.jpg",
-        title: "LinkScribe",
-        description: "FullStack app that transform youtube videos into viral linkedin posts.",
-        tools: ["React" , "Gemini AI","Supabase","Next.js"],
+        title: "AI Newsletter Generator SAAS",
+        description: "FullStack App that generate viral newsletter with ai.",
+        tools: ["Next.js", "OpenAI", "Supabase"],
         link: "#"
-    },
-    {
-        id:2,
-        image: "/project2.jpg",
-        title: "WhatFast",
-        description: "FullStack app that send whatsapp messages via excel.",
-         tools: ["React" ,"Supabase","Next.js","MercadoPago"],
-        link: "https://whatfast.com"
     },
 
 ]
@@ -32,3 +25,5 @@ export default function Projects() {
         </div>
     )
 }
+
+
