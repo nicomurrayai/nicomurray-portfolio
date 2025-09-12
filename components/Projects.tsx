@@ -6,9 +6,9 @@ const projects: ProjectProps[] = [
     {
         id: 1,
         image: "/project1.jpg",
-        title: "AI Newsletter Generator SAAS",
-        description: "FullStack App that generate viral newsletter with ai.",
-        tools: ["Next.js", "OpenAI", "Supabase"],
+        title: "ENTREVISTATE",
+        description: "FullStack SAAS que simula entrevistas de trabajo con agentes de voz IA.",
+        tools: ["Next.js", "TypeScript" ,  "OpenAI API", "Convex" , "ElevenLabs"],
         link: "#"
     },
 
@@ -18,8 +18,8 @@ const projects: ProjectProps[] = [
 export default function Projects() {
     return (
         <div className="my-10" id="projects">
-            <h3 className="text-center text-3xl font-thin -tracking-tight mb-10">FEATURED WORKS</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
+            <h3 className="text-center text-3xl font-thin -tracking-tighter mb-10 border-t pt-6">TRABAJOS DESTACADOS</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 {projects.map(project => <ProjectCard key={project.id} project={project} />)}
             </div>
         </div>

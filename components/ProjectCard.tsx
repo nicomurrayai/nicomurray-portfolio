@@ -14,7 +14,7 @@ export type ProjectProps = {
 export default function ProjectCard({ project }: { project: ProjectProps }) {
     return (
         <div className="border rounded overflow-hidden">
-            <div className="relative w-full h-52">
+            <div className="relative w-full h-46">
                 <Image
                     src={project.image}
                     alt={project.title}
@@ -28,7 +28,7 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
                 <div className="flex flex-wrap gap-2">
                     {project.tools.map(tool => <Badge key={crypto.randomUUID()} variant="outline">{tool}</Badge>)}
                 </div>
-                <a className="mt-4 border text-center py-2 rounded-lg  hover:opacity-50" target="_blank" href={project.link}>View project</a>
+                <a className="mt-4 border text-center py-2 rounded-lg  hover:opacity-50" target="_blank" href={project.link}>Ver trabajo</a>
             </div>
         </div>
     )
