@@ -6,9 +6,9 @@ const projects: ProjectProps[] = [
     {
         id: 1,
         image: "/project1.jpg",
-        title: "ENTREVISTATE",
+        title: "entrevistate",
         description: "FullStack SAAS que simula entrevistas de trabajo con agentes de voz IA.",
-        tools: ["Next.js", "React" , "TypeScript" ,  "OpenAI API", "Convex" , "ElevenLabs" , "Clerck" , "MercadoPago"],
+        tools: ["Next.js", "React" , "TypeScript" ,  "OpenAI API", "Convex" , "ElevenLabs" , "Clerck" , "Polar"],
         link: "https://www.entrevistate.com"
     },
 
