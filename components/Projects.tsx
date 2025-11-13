@@ -15,7 +15,7 @@ const projects: ProjectProps[] = [
         id: 2,
         image: "/project2.jpg",
         title: "LaCarta!",
-        description: "SAAS B2B | Generacion de menu QR tipo tiktok para que los negocios puedan mostrar sus productos",
+        description: "SAAS B2B | Generacion de menu QR tipo tiktok para que los negocios puedan mostrar sus productos.",
         tools: ["Next.js", "React" , "TypeScript" , "Convex" , "Supabase Storage"  , "Clerck" , "Polar" , "Vercel"],
         link: "https://www.lacartaa.com"
     },
