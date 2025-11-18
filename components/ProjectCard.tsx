@@ -9,6 +9,7 @@ export type ProjectProps = {
     description: string
     tools: string[]
     link: string
+    category: string
 }
 
 export default function ProjectCard({ project }: { project: ProjectProps }) {
@@ -23,7 +24,10 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
                 />
             </div>
             <div className="flex flex-col gap-2 p-4">
-                <h5 className="text-xl">{project.title}</h5>
+                <div className="flex items-center justify-between font-bold">
+                    <h5 className="text-xl">{project.title}</h5>
+                    <Badge className="font-bold">{project.category}</Badge>
+                </div>
                 <p className="dark:text-gray-400 text-gray-800">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                     {project.tools.map(tool => <Badge key={crypto.randomUUID()} variant="outline">{tool}</Badge>)}
