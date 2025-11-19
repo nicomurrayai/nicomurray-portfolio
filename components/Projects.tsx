@@ -9,7 +9,7 @@ const projects: ProjectProps[] = [
         title: "entrevistate",
         category: "SAAS",
         description: "Plataforma que simula entrevistas laborales reales mediante agentes de voz con I.A., ayudando a candidatos a practicar y mejorar su desempeño.",
-        tools: ["Next.js", "React", "TypeScript", "OpenAI API", "Convex", "ElevenLabs", "Clerk", "Polar", "Vercel"],
+        tools: ["Next.js", "React", "TypeScript", "OpenAI API", "Convex", "ElevenLabs", "Resend" , "Clerk", "Polar", "Vercel" ,],
         link: "https://www.entrevistate.com"
     },
     {
@@ -18,7 +18,7 @@ const projects: ProjectProps[] = [
         title: "LaCarta!",
         category:"SAAS",
         description: "Sistema de menús QR con formato tipo TikTok para que los negocios muestren sus productos de forma dinámica, rápida y visual.",
-        tools: ["Next.js", "React", "TypeScript", "Convex", "Supabase Storage", "Clerk", "Polar", "Vercel"],
+        tools: ["Next.js", "React", "TypeScript", "Convex", "Supabase Storage", "Clerk", "Resend" , "Polar", "Vercel"],
         link: "https://www.lacartaa.com"
     },
 
