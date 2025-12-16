@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google"
 import "./globals.css"
 import { ReactNode } from "react";
-import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
@@ -24,7 +23,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     <html suppressHydrationWarning>
       <body className={montserrat.className} >
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <Navbar />
+
           <main className="px-10 md:px-20 m-auto max-w-[1600px]">
             {children}
           </main>
