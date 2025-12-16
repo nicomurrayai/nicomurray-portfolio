@@ -73,7 +73,7 @@ const BackgroundEffect = () => {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden bg-black">
       {/* 1. Orbes Difuminados (Gradientes) */}
-      <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-purple-600/30 rounded-full blur-[120px] mix-blend-screen" />
+      <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-purple-800/30 rounded-full blur-[120px] mix-blend-screen" />
       
       {/* 2. Capa de Partículas (Canvas) */}
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />

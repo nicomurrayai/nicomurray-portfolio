@@ -24,6 +24,15 @@ const projects: ProjectProps[] = [
         tools: ["Next.js", "React", "TypeScript", "Convex", "Supabase Storage", "Clerk", "Resend", "Polar", "Vercel"],
         link: "https://www.lacartaa.com"
     },
+    {
+        id: 3,
+        image: "/project3.jpg",
+        title: "Referent",
+        category: "LANDING",
+        description: "Landing page diseñada y desarrollada con foco en conversión para la agencia de growth Referent",
+        tools: ["Next.js", "React", "TypeScript", "Vercel"],
+        link: "https://www.lacartaa.com"
+    }
 ]
 
 export default function Projects() {
@@ -58,12 +67,12 @@ export default function Projects() {
     return (
         <div className="my-10">
             {/* 2. Convertimos el grid en motion.div */}
-            <motion.div 
+            <motion.div
                 className="grid md:grid-cols-2 lg:grid-cols-3 gap-10"
                 variants={containerVariants}
                 initial="hidden"
                 // Usamos whileInView para que anime cuando haces scroll hacia esta sección
-                whileInView="visible" 
+                whileInView="visible"
                 viewport={{ once: true, amount: 0.2 }} // Se anima una sola vez al ver el 20% del componente
             >
                 {projects.map(project => (

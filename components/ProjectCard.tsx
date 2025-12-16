@@ -25,16 +25,18 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <div className="flex flex-col gap-2 p-4 flex-1">
+                <Badge className="font-bold">{project.category}</Badge>
                 <h5 className="text-xl font-bold group-hover:text-primary transition-colors duration-300">
                     {project.title}
+
                 </h5>
                 <p className="dark:text-gray-400 text-gray-800 text-sm line-clamp-3 flex-1">
                     {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
                     {project.tools.map(tool => (
-                        <Badge 
-                            key={crypto.randomUUID()} 
+                        <Badge
+                            key={crypto.randomUUID()}
                             variant="outline"
                             className="text-xs"
                         >
@@ -42,9 +44,9 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
                         </Badge>
                     ))}
                 </div>
-                <a 
-                    className="mt-2 border text-center py-2 rounded-lg font-medium transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:border-primary" 
-                    target="_blank" 
+                <a
+                    className="mt-2 border text-center py-2 rounded-lg font-medium transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:border-primary"
+                    target="_blank"
                     href={project.link}
                     rel="noopener noreferrer"
                 >
