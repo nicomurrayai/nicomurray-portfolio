@@ -27,7 +27,7 @@ const projects: ProjectProps[] = [
     {
         id: 3,
         image: "/project3.jpg",
-        title: "Referent",
+        title: "Referent Site",
         category: "LANDING",
         description: "Landing page diseñada y desarrollada con foco en conversión para la agencia de growth Referent",
         tools: ["Next.js", "React", "TypeScript", "Vercel"],
