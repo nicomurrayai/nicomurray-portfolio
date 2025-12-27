@@ -31,7 +31,7 @@ const projects: ProjectProps[] = [
         category: "LANDING",
         description: "Landing page diseñada y desarrollada con foco en conversión para la agencia de growth Referent",
         tools: ["Next.js", "React", "TypeScript", "Vercel"],
-        link: "https://www.lacartaa.com"
+        link: "https://www.referent.site/"
     }
 ]
 
